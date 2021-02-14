@@ -1,6 +1,21 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview
+
+## Project Name
+
+Portfolio 
+
+## Project Description
+All about me.
+
+## Wireframes
+
+ Please check the link https://res.cloudinary.com/dx93cbdm4/image/upload/v1608582687/Screenshot_from_2020-12-21_11-04-09_by1n43.png 
+ 
+## Flow-Chart
+
+ Please check the link https://res.cloudinary.com/dx93cbdm4/image/upload/v1608582687/Screenshot_from_2020-12-21_11-04-09_by1n43.png 
+
 
 ## Available Scripts
 
