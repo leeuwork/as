@@ -1,0 +1,39 @@
+.nav-container{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    position:static;
+    
+}
+#name{
+    text-align: center;
+    
+}
+
+#name:hover{
+    color: coral;
+}
+
+.hamburger-container{
+    
+    display: flex;
+    justify-content:flex-end;
+    margin: 0px 50px 0px 50px;
+}
+
+#hamburger-img{
+    width: 50px;
+    height: 50px;
+}
+
+#humberger-menu{
+    margin-top: -50px ;
+}
+
+.links-container a{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(46, 30, 5);
+}
+.links-container a:hover{
+    color: coral;
+}
