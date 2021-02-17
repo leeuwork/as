@@ -17,7 +17,9 @@ function Nav(params) {
 
     return (
         <div className="nav-container">
-            <div id="name"><h3>Aslan Shaken</h3></div>
+            <div id="name">
+                <h3>Aslan Shaken</h3>
+            </div>
             <div className="hamburger-container">
                 <div id="humberger-menu">
                     <img

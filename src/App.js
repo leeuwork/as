@@ -4,7 +4,7 @@ import Home from './screen/Home/Home'
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Route exact path='/'>
         <Home />
       </Route>

@@ -1,0 +1,47 @@
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+}
+
+.about-me-right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0px 100px 20px 0px;
+    /* border: 2px solid rgb(119, 116, 111);
+    border-radius: 40px; */
+}
+
+.about-me-left {
+    margin: 100px 0px 0px 70px;
+    width: 30%;
+}
+
+.about-me-right p {
+    line-height: 2.5;
+    margin: 20px;
+}
+
+.about-me-right h2 {
+    text-align: center;
+}
+
+.about-me-tech {
+    margin-left: 20px;
+    width: 350px;
+}
+
+.about-me-tech h5 {
+    text-align: center;
+}
+
+
+.about-me-tech-skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me-tech-skills ul li {
+    margin: 8px;
+}
