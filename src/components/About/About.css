@@ -1,7 +1,7 @@
 .about-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 300px;
+    margin-top: 70px;
 }
 
 .about-me-right {
@@ -23,25 +23,8 @@
     margin: 20px;
 }
 
-.about-me-right h2 {
-    text-align: center;
-}
-
-.about-me-tech {
-    margin-left: 20px;
-    width: 350px;
-}
-
-.about-me-tech h5 {
+.about-me-right h3 {
     text-align: center;
 }
 
 
-.about-me-tech-skills {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.about-me-tech-skills ul li {
-    margin: 8px;
-}

@@ -1,5 +1,6 @@
 .projects-container-main {
     margin: 50px;
+    width: 1500px;
 }
 
 .projects-container-main h3 {
@@ -14,44 +15,65 @@
     justify-content: space-evenly;
 }
 
-.projects-container div {
+.project-container {
     border: 1px solid rgb(8, 8, 8);
     width: 500px;
-    height: 420px;
+    height: 470px;
     border-radius: 10px;
     margin: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.projects-container img {
-    width: 500px;
+.project-container img {
+    width: 500px !important;
+    height: 250px !important;
     margin: 0px 0px 0px 0px;
     border-bottom: 1px solid rgb(8, 8, 8);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
-.projects-container d {
+.project-container h5 {
     margin: 10px;
     font-weight: 500;
+    text-align: center;
 }
 
-.projects-container p {
+.project-container p {
     margin: 10px;
-    font-weight: 500;
+    text-align: center;
 }
 
-.projects-container x  {
+#project-skills {
     margin: 10px;
-    font-weight: 500;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.projects-container e {
-    margin: 20px;
+#project-skills h5 {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#project-skills h5:hover {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+#project-links {
+    margin: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#project-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#project-links a:hover {
+    border-bottom: 1px solid black;
 }
