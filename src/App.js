@@ -1,6 +1,7 @@
 import './App.css';
 import { Route } from 'react-router-dom'
 import Home from './screen/Home/Home'
+import Resume from './screen/Resume/Resume'
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       <Route exact path='/'>
         <Home />
       </Route>
+
+      <Route exact path='/resume'>
+        <Resume />
+      </Route> 
     </div>
   );
 }

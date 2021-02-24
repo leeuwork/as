@@ -1,14 +1,13 @@
-.nav-container {
-    padding: 10px;
-    position: static;
-}
 
 #name {
     display: flex;
     justify-content: center;
 }
-
-#name h3:hover {
+#nDec{
+    text-decoration: none;
+    color: black;
+}
+#name h1:hover {
     color: coral;
 }
 
@@ -35,6 +34,7 @@
     font-weight: 700;
     text-decoration: none;
     color: rgb(46, 30, 5);
+    font-size: 30px;
 }
 
 .links-container a:hover {

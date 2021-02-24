@@ -1,15 +1,16 @@
 import './Nav.css'
 import { useState } from "react";
+import { Link } from "react-router-dom"
 
-function Nav(params) {
+function Nav() {
     const [show, setShow] = useState(false)
 
     function links() {
         return (
             <div className="links-container">
-                <a href="#"><h5>About</h5></a>
+                <a href="about-container"><h5>About</h5></a>
                 <a href="#"><h5>Projects</h5></a>
-                <a href="#"><h5>Resume</h5></a>
+                <Link to="/resume"><h5>Resume</h5></Link>
                 <a href="#"><h5>Contact</h5></a>
             </div>
         )
@@ -18,7 +19,7 @@ function Nav(params) {
     return (
         <div className="nav-container">
             <div id="name">
-                <h3>Aslan Shaken</h3>
+                <Link to="/" id="nDec"><h1>Aslan Shaken</h1></Link>
             </div>
             <div className="hamburger-container">
                 <div id="humberger-menu">

@@ -60,10 +60,11 @@
 .main-text {
     text-align: center;
     margin: 110px;
+    font-size: 25px;
 }
 
 .left-links {
-    margin:0px 0px 10px 20px;
+    margin:-50px 0px 10px 20px;
     position:fixed;
     width: 30px;
 }

@@ -1,4 +1,13 @@
 import './Skills.css'
+import HtmlCss from './Img/html_css.png'
+import Js from './Img/js.png'
+import ReactImg from './Img/react.png'
+import Node from './Img/node_js.png'
+import Ruby from './Img/ruby.png'
+import MondoDB from './Img/mangodb.png'
+import Express from './Img/express.png'
+import Sql from './Img/sql.png'
+
 
 function Skills() {
     return (
@@ -7,35 +16,35 @@ function Skills() {
             <div className="skills-txt-img">
                 <div>
                     <h5>HTML & (S) CSS</h5>
-                    <img src="https://png.pngitem.com/pimgs/s/206-2069813_file-css-and-html-css-logo-svg-hd.png" alt="html/css" />
+                    <img src={HtmlCss} alt="html/css" />
                 </div>
                 <div>
                     <h5>JavaScript (ES6+)</h5>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/480px-JavaScript-logo.png" alt="JS" />
+                    <img src={Js} alt="JS" />
                 </div>
                 <div>
                     <h5>React</h5>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLAgww5mYZA_wf-aw5sSIww98KhfSfmRx6Kw&usqp=CAU" alt="react" />
+                    <img src={ReactImg} alt="react" />
                 </div>
                 <div>
                     <h5>Node.js</h5>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXz294_oR7i9wBoKKvK4DprypJBg0OKzwOyg&usqp=CAU" alt="node.js" />
+                    <img src={Node} alt="node.js" />
                 </div>
                 <div>
                     <h5>Ruby</h5>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQOEz3fcdpLCgzYdWDTUjoUH_SRKbD7z1nJQ&usqp=CAU" alt="ruby" />
+                    <img src={Ruby} alt="ruby" />
                 </div>
                 <div>
                     <h5>MangoDB </h5>
-                    <img src="https://i.dlpng.com/static/png/359589_preview.png" alt="MangoDB" />
+                    <img src={MondoDB} alt="MangoDB" />
                 </div>
                 <div>
                     <h5>Express</h5>
-                    <img src="https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/express_js.png" alt="MandoDB" />
+                    <img src={Express} alt="Express" />
                 </div>
                 <div>
                     <h5>SQL</h5>
-                    <img src="https://www.pentarray.com/wp-content/uploads/2018/02/database-logo.png" alt="sql" />
+                    <img src={Sql} alt="sql" />
                 </div>
             </div>
         </div>

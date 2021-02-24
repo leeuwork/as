@@ -7,7 +7,7 @@ function About() {
                 <img src="https://i.ibb.co/VHmffgR/personwithnote.png" />
             </div>
             <div className="about-me-right">
-                    <h3> A little bit of me</h3>
+                    <h2> A little bit of me</h2>
                     <p>When I was 15
                     years old I worked in my uncle’s computer
                     repair shop. Since then I discovered the
