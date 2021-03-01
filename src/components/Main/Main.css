@@ -1,6 +1,6 @@
 .main-container {
     border: 2px solid black;
-    margin: 30px 500px 30px 500px;
+    margin: 30px 650px 30px 650px;
     border-radius: 20px;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .left-links {
-    margin:-50px 0px 10px 20px;
+    margin: 110px 0px 10px 20px;
     position:fixed;
     width: 30px;
 }
